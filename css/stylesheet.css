@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0
+}
+.top{
+	padding:10px 5px; 
+	font-size: 18px;
+	line-height: 22px;
+	height: 22px;
+	font-weight: 400
+}
+.top span{
+	margin: 0 10px;
+	color: #00f
+}
+.top img{
+	float: right;
+	width: 20px;
+	height: 22px;
+}
+.search{
+	background: #00f
+}
+.search h3{
+	height:30px;
+	padding-left: 10px;
+	font-size: 15px;
+	line-height: 30px;
+	color: #fff;
+}
+.search h3 img{
+	width: 15px;
+	height: 15px;
+	margin-right: 10px
+}
+.search input{
+	width: 93%;
+	border: none;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin: 10px 20px
+}
