@@ -1,6 +1,7 @@
 import React from 'react';
 import fen from "../img/fen.png"
 import di from "../img/di.png"
+import Ban from './Ban'
 class App extends React.Component{
 	render(){
 		return(
@@ -10,6 +11,7 @@ class App extends React.Component{
 					<h3><img src={di}/>海为科技园</h3>
 					<input type="text" placeholder="搜所商家、商品名称"/>
 				</div>
+				<Ban/>
 			</div>
 		)
 	}
